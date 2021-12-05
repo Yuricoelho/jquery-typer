@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Typer</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>Typer</h1>
-    <p class="frase">Lorem dolor sit amet, consectetur adipiscing elit. Vivamus viverra eget felis quis tristique. Phasellus sagittis imperdiet lobortis.</p>
+    <div class="container">
+        <h1 class="center">Typer</h1>
+        <p class="frase center">Lorem dolor sit amet, consectetur adipiscing elit. Vivamus viverra eget felis quis tristique. Phasellus sagittis imperdiet lobortis.</p>
 
-    <ul class="informacoes">
-        <li><span id="tamanho-frase">30</span> palavras</li>
-        <li><span id="tempo-digitacao">10</span> segundos</li>
-    </ul>
+        <ul class="informacoes center">
+            <li><span id="tamanho-frase">30</span> palavras</li>
+            <li><span id="tempo-digitacao">10</span> segundos</li>
+        </ul>
 
-    <textarea class="campo-de-digitacao" cols="30" rows="10"></textarea>
-    <button id="botao-reiniciar"> Reiniciar Jogo</button>
+        <textarea class="campo-de-digitacao" cols="30" rows="10"></textarea>
+        <button id="botao-reiniciar"> Reiniciar Jogo</button>
 
-    <ul>
-        <li><span id="contador-de-caracteres">0</span> caracteres</li>
-        <li><span id="contador-de-palavras">0</span> palavras</li>
-    </ul>
+        <ul class="center">
+            <li><span id="contador-de-caracteres">0</span> caracteres</li>
+            <li><span id="contador-de-palavras">0</span> palavras</li>
+        </ul>
+    </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
